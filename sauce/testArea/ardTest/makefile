@@ -92,7 +92,7 @@ CXXFLAGS         += -pedantic -Wall -Wextra
 # MONITOR_PORT    = /dev/tty.usbmodem*
 # MONITOR_PORT	  = /dev/ttyUSB*
 MONITOR_PORT	  = /dev/ttyUSB3
-BT_MONITOR_PORT   = /dev/rfcomm0	#or rfcomm1 check "ls /dev/rfcomm*"
+BT_MONITOR_PORT   = /dev/rfcomm5	#or rfcomm1 check "ls /dev/rfcomm*"
 # CURRENT_DIR
 # Do not touch - used for binaries path
 CURRENT_DIR       = $(shell basename $(CURDIR))

@@ -1,6 +1,6 @@
 /* Temperature Controller for ELBOW Team a.k.a CORE SPLINT
  * by julio b. figueroa with contributions form ELBOW TEAM!
- * For use by our ELBOW TEAM ME498 class @ UNLV
+ * For use by ACES TEAM ME498 class @ UNLV
  * Copyright 2018
  *
  * This file is to store strings and outputs that go to the LCD + serial
@@ -24,15 +24,14 @@ rgb_lcd lcd;        // using namespace, weird that "using namespace" isn't here
 void menuStart() {
     Serial.println("Enter 1 to run program 1");
     Serial.println("Enter 2 to run program 2");
-    Serial.println("Enter 3 to run program 3");
-    Serial.println("Enter 4 to run program 4");
+    //Serial.println("Enter 3 to run program 3");
+    //Serial.println("Enter 4 to run program 4");
     }
 
-void menuIntroduction() {
+void startIntroduction() {
     Serial.println("Welcome to Team ACES's Prototype Program!");
     Serial.println("UNLV Fall 2018, Acute Cryotherapy Elbow Splint");
-    Serial.println("For Quesitons view the Contact Us page on our website");
-    Serial.println("Please don't sue us.");
+    Serial.println("For Quesitons/Fan Mail reply to figuer67@domain");
 }
 
 // LCC Start
@@ -232,6 +231,4 @@ void CSVout3(unsigned long time, float voltageInA, float voltageInB, \
 
     return;
 }
-
-
 #endif

@@ -21,35 +21,43 @@
 
 int input;
 char junk = ' ';
-boolean safetyFlag = 0;
+boolean safetyFlag, loopFlag, stopFlag;
 
 void setup() {
     Serial.begin(9600);          // set up serial baud rate, check makefile
+    Serial.println("Please wait 2 seconds");
+    delay(2000);        // connect to BT
     lcdStart();
     lcdStartIntro();             // intro text on lcd display
-    menuIntroduction();          // menu intro text, won't be seen
+    startIntroduction();          // menu intro text, won't be seen
     delay(10);                   // needed elsewhere (before sensor log?)
-    Serial.flush();              // should clear the screen
+    Serial.flush();              // acts as a delay for buffer to TX
 }
 
 void loop() {
     menuStart();                         // menu 1,2,3,4 options
-    while (Serial.available()==0) {    // wait until buffer has a character
+    while (Serial.available()==0) {      // wait until buffer has a character
         input = Serial.parseFloat();     // input value, should be integer
         while (Serial.available() > 0) { // head - tail
-             junk = Serial.read();     // or junk = s.r()
+             junk = Serial.read();       // or junk = s.r()
         }
     }
-    if (input == 1) {
+    /*
+    while (Serial.available()==0) {
+        input = Serial.read();
+    }
+    */
+    if (junk == 1 && stopFlag != 1) {
         logSequence001();
-            }
-    else if (input == 2) {
+        stopFlag = 1 ;                      // do not pass go
+    }
+    else if (junk == 2 && stopFlag != 1 ) {
         Serial.println("you have selected 2");
+        stopFlag = 1;                       // do not collect
     }
-    else if (input == 3) {
-        Serial.println("you have selected 3");
-    }
-    else if (input == 4) {
-        Serial.println("you have selected 4");  // or \n would make a new line
-    }
+    else {                                  // either input !int R[1,4] v stopFlag != 0
+        stopFlag = 1;
+        Serial.println("Please select an integer option 1-2");
+        }
+    input = 0;
 }
