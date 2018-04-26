@@ -50,13 +50,13 @@ USER_LIB_PAT	= ~/sketchbook/libraries/
 # BOARD_TAG
 # Please consult /usr/share/arduino/hardware/arduino/boards.txt to verify fuses
 # try lower case tags, in this same folder type 'make board_boards'
- BOARD_TAG     = nano328
+# BOARD_TAG     = nano328
 # the nano v3 is the 328 one
 # BOARD_TAG		=	nano
 # the nano v2 should be the regular nano
 # BOARD_TAG		=	mega2560
 #BOARD_TAG		=	atmega328
-#BOARD_TAG	    =   uno
+BOARD_TAG	    =   uno
 
 # MONITOR_BAUDRATE
 # It must be set to Serial baudrate value you are using.

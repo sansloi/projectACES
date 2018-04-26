@@ -10,7 +10,7 @@ all: prog
 #	$(CC) $(CFLAGS) R_to_temp.cpp
 
 prog:
-	$(CC) $(CFLAGS) cliMenu.cpp
+	$(CC) $(CFLAGS) cliMenu2cpp
 
 clean:
 	rm *.out

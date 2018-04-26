@@ -24,7 +24,7 @@ ARDUINO_SKETCHBOOK = ~/sketchbook
 
 # PROJECT_DIR
 # This is the path to where you have created/cloned your project
-# PROJECT_DIR        = ~/sketchbook/
+# PROJECT_DIR        = ~/sketchbook/JCMS
 
 # ARDMK_DIR
 # Path to the Arduino-Makefile director
@@ -45,13 +45,14 @@ ARDUINO_PREFERENCES_PATH	= ~/sketches/preferences.txt
 # Path to where the your project's libraries are stored.
 # USER_LIB_PATH    :=  $(PROJECT_DIR)/libraries
 USER_LIB_PAT	= ~/sketchbook/libraries/
+# ~/sketchbook/libraries/armadillo
 
 # BOARD_TAG
 # Please consult /usr/share/arduino/hardware/arduino/boards.txt to verify fuses
 # try lower case tags, in this same folder type 'make board_boards'
 # BOARD_TAG     = nano328
 # the nano v3 is the 328 one
-# BOARD_TAG		=	nano
+#BOARD_TAG		=	nano
 # the nano v2 should be the regular nano
 # BOARD_TAG		=	mega2560
 #BOARD_TAG		=	atmega328
@@ -90,11 +91,8 @@ CXXFLAGS         += -pedantic -Wall -Wextra
 # The port your board is connected to. Using an '*' tries all the ports and finds the right one.
 # MONITOR_PORT    = /dev/tty.usbmodem*
 # MONITOR_PORT	  = /dev/ttyUSB*
-#MONITOR_PORT	  = /dev/ttyUSB2
-# use /dev/ttyACM0 for adafruit's Uno
-MONITOR_PORT = /dev/ttyACM0
-BT_MONITOR_PORT   = /dev/rfcomm0	#or rfcomm1 check "ls /dev/rfcomm*"
-
+MONITOR_PORT	  = /dev/ttyUSB3
+BT_MONITOR_PORT   = /dev/rfcomm5	#or rfcomm1 check "ls /dev/rfcomm*"
 # CURRENT_DIR
 # Do not touch - used for binaries path
 CURRENT_DIR       = $(shell basename $(CURDIR))

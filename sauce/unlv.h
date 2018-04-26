@@ -16,6 +16,8 @@
 #include <stdlib.h>
 #include "rgb_lcd.h"
 #include "menu.h"                         // repeats killed by def-undef
+#include "MCP3008.h"
+
 
 // REMEMBER TO USE THE NANO V3 LAYOUT!!!!
 const int pinVoltSensorA = A5;            // pin to V_out on V.divider circuit
