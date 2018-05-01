@@ -43,32 +43,32 @@ void loop() {
 
     if (Serial.available() > 0) {      // wait until buffer has a character
         rx_byte = Serial.read();     // input value, should be integer
+        while(!Serial.available());
         if ((rx_byte >= '0') && (rx_byte <= '9')) {
             Serial.print("value received: ");
             Serial.println(rx_byte);
+            int menuOption = rx_byte;       // always reset to rx_byte
         }
         else {
             Serial.println("NaN");
         }
-    }
 
-    /*
-    if (input == 1) {
+        if (input == 1) {
         //logSequence001();                   // use when testing only
-        Serial.print("you have selected");
-        Serial.println(input);
-        stopFlag = 1 ;                      // do not pass go
-    }
-    //else if (input == 2 && stopFlag != 1 ) {
-    else if (input == 2) {
-        Serial.print("you have selected 2");
-        Serial.println(input);
-        stopFlag = 1;                       // do not collect
-    }
-    else {                                  // either input !int R[1,4] v stopFlag != 0
-        stopFlag = 1;
-        Serial.println("Please select an integer option 1-2");
+            Serial.print("you have selected");
+            Serial.println(menuOption);
+            stopFlag = 1 ;                      // do not pass go
         }
-    input = 0;
-    */
+        //else if (input == 2 && stopFlag != 1 ) {
+        else if (input == 2) {
+            Serial.print("you have selected 2");
+            Serial.println(menuOption);
+            stopFlag = 1;                       // do not collect
+        }
+        else {                                  // either input !int R[1,4] v stopFlag != 0
+            stopFlag = 1;
+            Serial.println("Please select an integer option 1-2");
+            }
+        input = 0;
+    }
 }

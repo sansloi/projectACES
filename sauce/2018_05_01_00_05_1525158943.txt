@@ -1,0 +1,399 @@
+Please wait 2 seconds
+Welcome to Team ACES's Prototype Program!
+UNLV Fall 2018, Acute Cryotherapy Elbow Splint
+For Quesitons/Fan Mail reply to figuer67@domain
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 3
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 4
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 3
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 3
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 3
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 2
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2
+NaN
+Enter 1 to run program 1
+Enter 2 to run program 2
+value received: 1
+Enter 1 to run program 1
+Enter 2 to run program 2

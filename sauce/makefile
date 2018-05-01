@@ -49,13 +49,13 @@ USER_LIB_PAT	= ~/sketchbook/libraries/
 # BOARD_TAG
 # Please consult /usr/share/arduino/hardware/arduino/boards.txt to verify fuses
 # try lower case tags, in this same folder type 'make board_boards'
-# BOARD_TAG     = nano328
+BOARD_TAG     = nano328
 # the nano v3 is the 328 one
-# BOARD_TAG		=	nano
+#BOARD_TAG		=	nano
 # the nano v2 should be the regular nano
 # BOARD_TAG		=	mega2560
 #BOARD_TAG		=	atmega328
-BOARD_TAG	    =   uno
+#BOARD_TAG	    =   uno
 
 # MONITOR_BAUDRATE
 # It must be set to Serial baudrate value you are using.
@@ -89,10 +89,10 @@ CXXFLAGS         += -pedantic -Wall -Wextra
 # MONITOR_PORT
 # The port your board is connected to. Using an '*' tries all the ports and finds the right one.
 # MONITOR_PORT    = /dev/tty.usbmodem*
-# MONITOR_PORT	  = /dev/ttyUSB*
-#MONITOR_PORT	  = /dev/ttyUSB2
+#MONITOR_PORT	  = /dev/ttyUSB*
+MONITOR_PORT	  = /dev/ttyUSB3
 # use /dev/ttyACM0 for adafruit's Uno
-MONITOR_PORT = /dev/ttyACM0
+#MONITOR_PORT = /dev/ttyACM0
 BT_MONITOR_PORT   = /dev/rfcomm0	#or rfcomm1 check "ls /dev/rfcomm*"
 
 # CURRENT_DIR
