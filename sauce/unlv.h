@@ -18,6 +18,7 @@
 #include "menu.h"                         // repeats killed by def-undef
 #include "MCP3008.h"
 
+//MCP3008 adc(CLOCK_PIN, MOSI_PIN, MISO_PIN, CS_PIN);
 
 // REMEMBER TO USE THE NANO V3 LAYOUT!!!!
 // reserve A4 and A5 for i2C communication
@@ -166,9 +167,12 @@ void seniorDesignDemo() {
     unsigned long timeStart = millis();     // time since last start or restart
     unsigned long timeNow = 0;       // give it a value in the while loop
     unsigned long deltaTime = 0;
+
+    //MCP3008 adc(CLOCK_PIN, MOSI_PIN, MISO_PIN, CS_PIN);
+
     pinMode(2, OUTPUT);
     // example 2*60*1000 is 2 minutes
-    while( deltaTime <= 120000) {
+    while( deltaTime <= 600000) {
         timeNow = millis();
         deltaTime = timeNow - timeStart;     // timeStart won't change in loop
         Serial.println(deltaTime);
@@ -179,10 +183,19 @@ void seniorDesignDemo() {
         lcd.print(deltaTime/1000);
         // turn MOSFET ch 2 on
         digitalWrite(2, HIGH);
+        // read ADC inputs channels 1 through 8
+        /*
+        for (int i=0; i<8; i++) {
+            int val = adc.readADC(i);
+            Serial.print(val);
+            Serial.print("\t");
+            }
+        Serial.println("");
+        */
     }
     // reset counter
     // turn MOSFET ch 2 off
     digitalWrite(2, LOW);                   // turn that MOSFET OFF!
     lcd.setCursor(0,0);
-    lcd.print("                    ");      // basically just clear the screen
+    //lcd.print("                    ");      // basically just clear the screen
 }

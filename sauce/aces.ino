@@ -21,12 +21,20 @@
 #include "menu.h"
 #include "MCP3008.h"            // analog to digital IC header
 
+#define CS_PIN 12
+#define CLOCK_PIN 9
+#define MOSI_PIN 11
+#define MISO_PIN 10
+
+//MCP3008 adc(CLOCK_PIN, MOSI_PIN, MISO_PIN, CS_PIN);
+
 int input, menuOption;
 char junk = ' ';
 boolean safetyFlag, loopFlag, stopFlag;
 
 void setup() {
     Serial.begin(9600);          // set up serial baud rate, check makefile
+    //lcd.begin(16,2);
     Serial.println("Please wait 2 seconds");
     delay(2000);        // connect to BT
     lcdStart();
