@@ -21,7 +21,7 @@
 #include "menu.h"
 #include "MCP3008.h"            // analog to digital IC header
 
-int input;
+int input, menuOption;
 char junk = ' ';
 boolean safetyFlag, loopFlag, stopFlag;
 
@@ -41,33 +41,34 @@ char rx_byte = 0;
 void loop() {
     menuStart();                         // menu 1,2,3,4 options
 
-    if (Serial.available() > 0) {      // wait until buffer has a character
-        rx_byte = Serial.read();     // input value, should be integer
+    if (Serial.available() > 0) {       // wait until buffer has a character
+        rx_byte = Serial.read();        // input value, should be integer
         while(!Serial.available());
-        if ((rx_byte >= '0') && (rx_byte <= '9')) {
+        if ((rx_byte >= '0') && (rx_byte <= '5')) {
             Serial.print("value received: ");
             Serial.println(rx_byte);
-            int menuOption = rx_byte;       // always reset to rx_byte
+            //menuOption = rx_byte;       // always reset to rx_byte
         }
         else {
             Serial.println("NaN");
         }
-
-        if (input == 1) {
-        //logSequence001();                   // use when testing only
-            Serial.print("you have selected");
-            Serial.println(menuOption);
+        menuOption = rx_byte;           // keep outside if statement
+        if (menuOption == '1') {
+            Serial.println("You have seclted 1: Logging Sequence");
+            logSequence001();                   // use when testing only
+            Serial.println(int(menuOption));
             stopFlag = 1 ;                      // do not pass go
         }
         //else if (input == 2 && stopFlag != 1 ) {
-        else if (input == 2) {
+        else if (menuOption == '2') {
             Serial.print("you have selected 2");
-            Serial.println(menuOption);
+            Serial.println(int(menuOption));
+            seniorDesignDemo();
             stopFlag = 1;                       // do not collect
         }
         else {                                  // either input !int R[1,4] v stopFlag != 0
             stopFlag = 1;
-            Serial.println("Please select an integer option 1-2");
+            Serial.println("Please select an integer option 1-5");
             }
         input = 0;
     }

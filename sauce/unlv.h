@@ -20,6 +20,8 @@
 
 
 // REMEMBER TO USE THE NANO V3 LAYOUT!!!!
+// reserve A4 and A5 for i2C communication
+
 const int pinVoltSensorA = A5;            // pin to V_out on V.divider circuit
 float R_A1 = 176700;
 float R_A2 = 80600;
@@ -32,6 +34,7 @@ const int pinVoltSensorC = A3;
 float R_C1 = 1000800;
 float R_C2 = 97600;
 
+// previous wheatstone allocations
 const int pinNTC1_Vin = A1;           // NTC1 Vin to A1
 const int pinNTC1_V2 = A2;            // NTC1 V2 to A2
 
@@ -156,4 +159,20 @@ void logSequence001 () {
     CSVout3(time, voltageInA, voltageInB, voltageInC, temperature_C, \
             ntcTempF, quAnalogVoltage2, quAnalogVoltageIn);
     delay(1000);             // set the sample Rate [ms]
+}
+
+/* 2 minutes on, 2 minutes off?, sure */
+void seniorDesignDemo() {
+    unsigned long timeStart = millis();     // time since last start or restart
+    unsigned long timeNow = millis();
+    pinMode(2, OUTPUT);
+    // example 2*60*1000 is 2 minutes
+    while(timeNow - timeStart <= 120000) {
+        Serial.println("test please ignore");
+        // LCD display time
+        // turn MOSFET ch 2 on
+        digitalWrite(2, HIGH);
+    }
+    // reset counter
+    // turn MOSFET ch 2 off
 }
