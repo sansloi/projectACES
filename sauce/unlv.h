@@ -164,15 +164,25 @@ void logSequence001 () {
 /* 2 minutes on, 2 minutes off?, sure */
 void seniorDesignDemo() {
     unsigned long timeStart = millis();     // time since last start or restart
-    unsigned long timeNow = millis();
+    unsigned long timeNow = 0;       // give it a value in the while loop
+    unsigned long deltaTime = 0;
     pinMode(2, OUTPUT);
     // example 2*60*1000 is 2 minutes
-    while(timeNow - timeStart <= 120000) {
-        Serial.println("test please ignore");
-        // LCD display time
+    while( deltaTime <= 120000) {
+        timeNow = millis();
+        deltaTime = timeNow - timeStart;     // timeStart won't change in loop
+        Serial.println(deltaTime);
+        // LCD display time, should i do it here, or call from menu.h?
+        lcd.setCursor(0,0);
+        lcd.print("Time: ");
+        lcd.setCursor(7,0);
+        lcd.print(deltaTime/1000);
         // turn MOSFET ch 2 on
         digitalWrite(2, HIGH);
     }
     // reset counter
     // turn MOSFET ch 2 off
+    digitalWrite(2, LOW);                   // turn that MOSFET OFF!
+    lcd.setCursor(0,0);
+    lcd.print("                    ");      // basically just clear the screen
 }

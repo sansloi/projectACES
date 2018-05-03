@@ -61,7 +61,8 @@ void loop() {
         }
         //else if (input == 2 && stopFlag != 1 ) {
         else if (menuOption == '2') {
-            Serial.print("you have selected 2");
+            Serial.println("you have selected 2");
+            Serial.println("seniorDesignDemo");
             Serial.println(int(menuOption));
             seniorDesignDemo();
             stopFlag = 1;                       // do not collect
